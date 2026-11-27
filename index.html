@@ -1,0 +1,683 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Haura Anastasya — Creative Designer, Digital Marketing, and Marketing Communication Portfolio.">
+
+    <meta name="author" content="Haura Anastasya">
+    <meta name="theme-color" content="#030014">
+
+    <meta property="og:title" content="Haura Anastasya | Portfolio">
+    <meta property="og:description"
+        content="Explore the creative works, projects, and experiences of Haura Anastasya.">
+    <meta property="og:type" content="website">
+
+    <title>Haura Anastasya | Creative Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================================
+         INTRO / WELCOME SCREEN
+    =================================== -->
+
+    <div class="intro-screen" id="introScreen" aria-label="Welcome screen">
+
+        <div class="intro-content">
+
+            <div class="intro-icons">
+
+                <!-- Megaphone: campaigns & promotion -->
+                <div class="intro-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path>
+                    </svg>
+                </div>
+
+                <!-- Video camera: content creation -->
+                <div class="intro-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect>
+                    </svg>
+                </div>
+
+                <!-- Trending up: strategy & growth -->
+                <div class="intro-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline>
+                    </svg>
+                </div>
+
+            </div>
+
+            <h1 class="intro-title">
+                Welcome To My
+                <span>Portfolio Website</span>
+            </h1>
+
+            <div class="intro-domain">
+                <span class="globe-icon" aria-hidden="true">◎</span>
+                <span id="introTyping"></span>
+                <span class="typing-cursor" aria-hidden="true">|</span>
+            </div>
+
+            <div class="intro-loading" aria-hidden="true">
+                <div class="intro-loading-bar" id="introLoadingBar"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==================================
+         VISUAL EFFECTS
+    =================================== -->
+
+    <div class="mouse-glow" aria-hidden="true"></div>
+
+    <div
+        class="scroll-progress"
+        id="scrollProgress"
+        aria-hidden="true">
+    </div>
+
+
+    <!-- ==================================
+         MAIN WEBSITE
+    =================================== -->
+
+    <main id="mainWebsite">
+
+        <!-- NAVIGATION -->
+
+        <header class="navbar">
+
+            <a href="#home" class="logo" aria-label="Haura home">
+                Haura<span>.</span>
+            </a>
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="nav">
+
+                ☰
+
+            </button>
+
+            <nav id="nav" aria-label="Main navigation">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#works">Works</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+        </header>
+
+
+        <!-- ==================================
+             HERO SECTION
+        =================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="glow glow-one" aria-hidden="true"></div>
+            <div class="glow glow-two" aria-hidden="true"></div>
+
+            <div class="hero-content reveal">
+
+                <p class="hello">
+                    HELLO, WELCOME TO MY PORTFOLIO
+                </p>
+
+                <h1>
+                    Hi, I'm
+                    <span class="gradient-text">Haura.</span>
+                </h1>
+
+                <h2 class="role">
+                    I'm a
+                    <span id="heroTyping"></span>
+                    <span class="typing-cursor" aria-hidden="true">|</span>
+                </h2>
+
+                <p class="desc">
+                    A creative mind passionate about visual storytelling,
+                    digital experiences, and meaningful communication.
+                    I enjoy turning ideas into something visually engaging.
+                </p>
+
+                <div class="buttons">
+
+                    <a href="#works" class="btn primary">
+                        Explore My Works ↗
+                    </a>
+
+                    <a
+                        href="assets/cv.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn ghost">
+
+                        View My CV ↗
+
+                    </a>
+
+                </div>
+
+                <div class="scroll-indicator" aria-hidden="true">
+                    <span></span>
+                    Scroll to explore
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             ABOUT SECTION
+        =================================== -->
+
+        <section class="section" id="about">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    GET TO KNOW ME
+                </p>
+
+                <h2 class="title">
+                    A bit About <span>Me.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="about-grid reveal">
+
+                <div class="photo">
+
+                    <img
+                        src="assets/images/foto.jpg"
+                        alt="Portrait of Haura Anastasya"
+                        loading="lazy"
+                        decoding="async">
+
+                    <div class="photo-decoration" aria-hidden="true"></div>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <h3>
+                        Creativity meets <span>purpose.</span>
+                    </h3>
+
+                    <p>
+                        I'm a creative professional with experience and
+                        interests in digital marketing, graphic design,
+                        and marketing communication.
+                    </p>
+
+                    <p>
+                        From developing visual concepts and promotional
+                        campaigns to creating engaging digital content,
+                        I enjoy bringing ideas to life through creativity,
+                        curiosity, and attention to detail.
+                    </p>
+
+                    <p>
+                        I believe that good design is not only about
+                        aesthetics, but also about delivering meaningful
+                        messages and creating memorable experiences.
+                    </p>
+
+
+                    <div class="about-tags">
+
+                        <span>Creative Thinking</span>
+                        <span>Visual Storytelling</span>
+                        <span>Digital Marketing</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             MARQUEE
+        =================================== -->
+
+        <div class="marquee" aria-label="Creative interests">
+
+            <div class="marquee-track" aria-hidden="true">
+
+                <span>CREATIVITY ✳</span>
+                <span>DESIGN ✳</span>
+                <span>STRATEGY ✳</span>
+                <span>COMMUNICATION ✳</span>
+
+                <span>CREATIVITY ✳</span>
+                <span>DESIGN ✳</span>
+                <span>STRATEGY ✳</span>
+                <span>COMMUNICATION ✳</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================
+             SKILLS SECTION
+        =================================== -->
+
+        <section class="section" id="skills">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    WHAT I DO
+                </p>
+
+                <h2 class="title">
+                    My Creative <span>Toolkit.</span>
+                </h2>
+
+                <p class="center">
+                    Skills and tools I use to bring creative ideas to life.
+                </p>
+
+            </div>
+
+
+            <!-- CREATIVE SKILLS -->
+
+            <div class="skills reveal">
+
+                <article class="skill">
+
+                    <span class="skill-icon" aria-hidden="true">✳</span>
+
+                    <h3>Graphic Design</h3>
+
+                    <p>
+                        Visual identity, promotional materials,
+                        and creative design.
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <span class="skill-icon" aria-hidden="true">⌘</span>
+
+                    <h3>Website Development</h3>
+
+                    <p>
+                        Building responsive websites and
+                        interactive digital experiences.
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <span class="skill-icon" aria-hidden="true">◈</span>
+
+                    <h3>Game Design</h3>
+
+                    <p>
+                        Game concepts, gameplay mechanics,
+                        and interactive experiences.
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <span class="skill-icon" aria-hidden="true">✦</span>
+
+                    <h3>Digital Marketing</h3>
+
+                    <p>
+                        Digital campaigns, social media content,
+                        and brand communication.
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <span class="skill-icon" aria-hidden="true">✧</span>
+
+                    <h3>Event & Marcom</h3>
+
+                    <p>
+                        Event promotion, marketing communications,
+                        and campaign coordination.
+                    </p>
+
+                </article>
+
+
+                <article class="skill">
+
+                    <span class="skill-icon" aria-hidden="true">◇</span>
+
+                    <h3>UI/UX Design</h3>
+
+                    <p>
+                        User-centered interfaces, wireframes,
+                        and digital prototyping.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <!-- CREATIVE TOOLS -->
+
+            <h3 class="sub reveal">
+                Design & Creative Tools
+            </h3>
+
+            <div class="tags reveal">
+
+                <span>Adobe Photoshop</span>
+                <span>Adobe Illustrator</span>
+                <span>Adobe Premiere Pro</span>
+                <span>Adobe Animate</span>
+                <span>Figma</span>
+                <span>Canva</span>
+                <span>CapCut</span>
+                <span>Visual Studio Code</span>
+                <span>Unity</span>
+                <span>Autodesk Maya</span>
+                <span>Microsoft Office</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             SELECTED WORKS
+        =================================== -->
+
+        <section class="section" id="works">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    A SELECTION OF MY WORK
+                </p>
+
+                <h2 class="title">
+                    Selected <span>Works.</span>
+                </h2>
+
+                <p class="center">
+                    A glimpse into some of the creative projects
+                    and collaborations I've been part of.
+                </p>
+
+            </div>
+
+
+ 
+<div class="cards">
+
+    <!-- PROJECT 01: NAGOYA HILL MALL -->
+
+    <article class="card reveal">
+
+        <a
+            href="projects/nagoya-mall.html"
+            class="project-link"
+            aria-label="Explore Nagoya Hill Mall project">
+
+            <div class="card-image">
+                <img
+                    src="assets/images/nagoya-mall-cover.jpg"
+                    alt="Nagoya Hill Shopping Mall"
+                    class="project-cover"
+                >
+
+                <span class="project-number">01</span>
+            </div>
+
+        </a>
+
+        <div class="card-body">
+
+            <p class="project-category">
+                MARKETING COMMUNICATION
+            </p>
+
+            <h3>Nagoya Hill Mall</h3>
+
+            <p>
+                Mall marketing, content creation,
+                event branding, and promotional campaigns.
+            </p>
+
+        </div>
+
+    </article>
+
+
+    <!-- PROJECT 02: NAGOYA HILL CONDOMINIUM -->
+
+    <article class="card reveal">
+
+        <a
+            href="projects/nagoya-condo.html"
+            class="project-link"
+            aria-label="Explore Nagoya Hill Condominium project">
+
+            <div class="card-image">
+                <img
+                    src="assets/images/nagoya-condo-cover.jpeg"
+                    alt="Nagoya Hill Condominium building"
+                    class="project-cover"
+                >
+
+                <span class="project-number">02</span>
+            </div>
+
+        </a>
+
+        <div class="card-body">
+
+            <p class="project-category">
+                REAL ESTATE · DIGITAL MARKETING
+            </p>
+
+            <h3>Nagoya Hill Condominium</h3>
+
+            <p>
+                Property marketing, visual storytelling,
+                and digital promotional content.
+            </p>
+
+        </div>
+
+    </article>
+
+
+    <!-- PROJECT 03: ONE BATAM MALL -->
+
+    <article class="card reveal">
+
+        <a
+            href="projects/one-batam.html"
+            class="project-link"
+            aria-label="Explore One Batam Mall project">
+
+            <div class="card-image">
+                <img
+                    src="assets/images/one-batam-cover.jpeg"
+                    alt="One Batam Mall building"
+                    class="project-cover"
+                >
+
+                <span class="project-number">03</span>
+            </div>
+
+        </a>
+
+        <div class="card-body">
+
+            <p class="project-category">
+                GRAPHIC DESIGN · MALL MARKETING
+            </p>
+
+            <h3>One Batam Mall</h3>
+
+            <p>
+                Marketing campaigns, event visuals,
+                and promotional design materials.
+            </p>
+
+        </div>
+
+    </article>
+
+</div>
+
+
+
+            <!-- EXPLORE MORE -->
+
+            <div class="explore-more reveal">
+
+                <p>
+                    Want to see more? Download my full portfolio.
+                </p>
+
+                <a
+                    href="assets/portofolio.pdf"
+                    download="Haura-Anastasya-Portfolio.pdf"
+                    class="btn primary">
+
+                    Download Full Portfolio ↓
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             CONTACT SECTION
+        =================================== -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-card reveal">
+
+                <p class="eyebrow">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Have a project in <span>mind?</span>
+                </h2>
+
+                <p>
+                    I'm always open to creative opportunities,
+                    collaborations, and interesting conversations.
+                </p>
+
+                <a
+                    href="mailto:officehaura@gmail.com"
+                    class="btn primary">
+
+                    Let's Talk ↗
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             FOOTER
+        =================================== -->
+
+        <footer>
+
+            <p>
+                Designed & Created by
+                <strong>Haura Anastasya</strong>
+            </p>
+
+            <p>
+                © <span id="year"></span> All Rights Reserved.
+            </p>
+
+        </footer>
+
+
+        <!-- ==================================
+             BACK TO TOP
+        =================================== -->
+
+        <button
+            id="backToTop"
+            class="back-to-top"
+            type="button"
+            aria-label="Back to top">
+
+            ↑
+
+        </button>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
